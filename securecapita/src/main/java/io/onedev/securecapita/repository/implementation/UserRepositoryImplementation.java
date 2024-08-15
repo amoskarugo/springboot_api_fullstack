@@ -77,5 +77,6 @@ public class UserRepositoryImplementation implements UserRepository<User> {
     }
 
     private SqlParameterSource getSqlParameterSource(User user) {
+        return null;
     }
 }
